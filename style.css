@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+      background: #100E14;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+/* HEADER */
+#header {
+    background: #fff;
+    padding: 30px 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.header-left a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    margin: 0px 30px;
+}
+.header-rigth a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    margin-left: 30px;
+}
+/* TACE */
+.tace-text {
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+    justify-content: center;
+}
+.tace-text h1 {
+    padding: 50px;
+    color: #FFF;
+font-size: 63px;
+font-weight: 400;
+letter-spacing: 2.88px;
+}
+.tace-text h2 {
+    color: rgba(255, 255, 255, 0.70);
+font-size: 28px;
+font-weight: 400;
+letter-spacing: 0.42px;
+margin:30px ;
+}
+.tace-text button {
+    width: 300px;
+    color: #FFF;
+font-size: 23px;
+font-weight: 400;
+letter-spacing: 0.42px;
+border-radius: 8px;
+background: #FF4343;
+padding: 15px 46px 24px 30px;
+gap: 12px;
+border: none;
+margin: 20px;
+}
+.tace-text h3 {
+    color: #FFF;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.42px;
+}
+.hero-img {
+    position: relative;
+}
+.hero-phone {
+    position: absolute;
+        top: 0;
+    right: 0;
+}       
+/* SHOOT */
+#shoot {
+padding: 50px 0;
+}
+.shoot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shoot-text h1 {
+    color: #FFF;
+font-size: 58px;
+font-weight: 400;
+line-height: 70.4px; /* 121.379% */
+letter-spacing: 1.92px;
+}
+.shoot-text p {
+    color: rgba(255, 255, 255, 0.50);
+font-size: 26px;
+margin-top: 38px;
+font-weight: 400;
+line-height: 37.8px; /* 145.385% */
+letter-spacing: 1.08px;
+}
+.shoot-img {
+    position: relative;
+}
+.shoot-phone {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.them-tittle h1 {
+    color: #FFF;
+font-size: 58px;
+font-weight: 400;
+line-height: 70.4px; /* 121.379% */
+letter-spacing: 1.92px;
+}
+.them-tittle p {
+    color: rgba(255, 255, 255, 0.50);
+font-size: 27px;
+font-weight: 400;
+line-height: 37.8px; /* 140% */
+letter-spacing: 1.08px;
+margin-top: 20px;
+}
+.them-tittle p span {
+    color: #FFF;
+font-size: 27px;
+font-weight: 700;
+line-height: 37.8px;
+letter-spacing: 1.08px;
+}
+.them {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.take-text h1 {
+    color: #FFF;
+font-size: 54px;
+font-weight: 400;
+letter-spacing: 3.2px;
+}
+.take-text p {
+    color: rgba(255, 255, 255, 0.50);
+font-size: 27px;
+font-weight: 400;
+line-height: 37.8px; /* 140% */
+letter-spacing: 1.08px;
+}
+.take {
+    display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+}
+#take {
+    margin-top: 250px;
+}
+.take p span {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+font-size: 27px;
+font-weight: 400;
+color: #FFF;
+}
+.red {
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+}
+.red-text{
+    margin-left: 60px;
+}
+.red-text h1 {
+    color: #FFF;
+font-size: 58px;
+line-height: 70.4px; /* 121.379% */
+letter-spacing: 1.92px;
+}
+.red-text p {
+    color: rgba(255, 255, 255, 0.50);
+font-size: 25px;
+font-weight: 400;
+line-height: 37.8px; /* 151.2% */
+letter-spacing: 1.08px;
+}
